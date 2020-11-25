@@ -19,8 +19,8 @@ class LoginPageController extends GetxController {
   }
 
   var formKey = GlobalKey<FormState>();
-  final tEmail = TextEditingController(text: 'enosads@gmail.com');
-  final tSenha = TextEditingController(text: '12345678');
+  final tEmail = TextEditingController();
+  final tSenha = TextEditingController();
   final focusSenha = FocusNode();
   var loading = false.obs;
 
